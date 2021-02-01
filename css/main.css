@@ -34,7 +34,7 @@ body{
     flex: 0.8;
     background-color: #d3e0ea; 
     ; 
-    z-index: -3;  
+    z-index: 0;  
 }
 
 .header{
@@ -45,7 +45,7 @@ body{
     position: absolute;
     width: 80%;
     color: white;
-    z-index: -1;
+    z-index: 0;
 }
 
 .nav_links{
@@ -55,7 +55,7 @@ body{
     align-items: center;
 }
 
-.nav_links > li{
+.nav_links>li{
     display: flex;  
     margin: 0px 30px; 
     cursor: pointer;
@@ -79,20 +79,8 @@ body{
 .content{
     flex: 0.4;
     display: flex;
-}
-
-.content_nav{
-    display: flex;
-    align-items: flex-start;
-    border-spacing: 0px;
-    flex-direction: column;
     justify-content: center;
-    align-items: left;
-}
-
-h3{
-    margin-left: 70px;
-    margin-top: 6px;
-    margin-bottom: 6px;
-    font-family :cursive ;
+    align-items: center;
+    font-family:cursive;
+    font-size: 14pt;
 }
